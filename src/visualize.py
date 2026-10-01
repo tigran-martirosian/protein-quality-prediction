@@ -39,7 +39,7 @@ def plot_top_ranking(df, top_n=20, out_dir=FIGURES_DIR):
                label="Complete-protein threshold (PQS = 1.0)")
     ax.set_xlabel("Protein Quality Score")
     ax.set_title(f"Top {top_n} Foods by Protein Quality")
-    ax.legend(loc="lower right")
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.09))
     plt.tight_layout()
     path = out_dir / "protein_quality_ranking.png"
     fig.savefig(path, dpi=150)
