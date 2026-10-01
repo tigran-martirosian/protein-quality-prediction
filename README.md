@@ -40,7 +40,7 @@ Classifier results, from 5-fold cross-validation on all 61 foods and a separate 
 | Logistic Regression | 0.935 +/- 0.033 | 0.898 | 0.923 | 0.857 |
 | Random Forest | 0.950 +/- 0.067 | 0.921 | 0.923 | 0.889 |
 
-With 13 test foods, one wrong prediction moves accuracy by about 8 points, so the two models aren't really different.
+With 13 test foods, one wrong prediction moves accuracy by about 8 points, so the difference between the two models isn't meaningful.
 
 ## Limitations
 
