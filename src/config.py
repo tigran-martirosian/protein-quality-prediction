@@ -5,7 +5,6 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 SAMPLE_CSV = DATA_DIR / "sample" / "foods_sample.csv"
 PROCESSED_DIR = DATA_DIR / "processed"
-RAW_DIR = DATA_DIR / "raw"
 RESULTS_DIR = ROOT / "results"
 FIGURES_DIR = RESULTS_DIR / "figures"
 REPORTS_DIR = RESULTS_DIR / "reports"
