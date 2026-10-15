@@ -47,3 +47,7 @@ With 13 test foods, one wrong prediction moves accuracy by about 8 points, so th
 - The "complete protein" label is made by a rule (PQS >= 1.0), and PQS is computed from the same amino acid values the classifiers train on. So the models show how well a known rule can be recovered, not a discovery about nutrition.
 - The sample is small (61 foods), so the numbers above would likely change with more data.
 - Missing amino acid values are filled with 0, and the reference pattern and digestibility factors are constants in `src/config.py`. The score is a classroom approximation, not a validated nutritional measure.
+
+## License
+
+See [LICENSE](LICENSE).
